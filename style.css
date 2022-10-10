@@ -164,32 +164,17 @@ iframe {
 }
 
 /**********  Responsive  ***********/
-@media(max-width:800px) {
-    .carousel-inner .carousel-item {
-        height: 100vh;
-    }
-}
 
 @media(max-width:768px) {
-    .carousel-inner {
-        height: 31vh;
-    }
-
-
     .carousel-inner .carousel-caption h2 {
         font-size: 38px;
-        margin-bottom: auto;
     }
 }
 
 @media(max-width:577px) {
-    .carousel-inner .carousel-item {
-        height: auto;
-    }
 
     .carousel-inner .carousel-caption h2 {
         font-size: 25px;
-        margin-bottom: auto;
     }
 
     .carousel-inner .carousel-caption p {
